@@ -1,5 +1,19 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Speech to text test</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- <link rel="stylesheet" type="text/css" href="https://bootswatch.com/4/cerulean/bootstrap.min.css"> -->
+    </head>
+    <body>
+        <div id="controls">
+        <button id="recordButton">Record</button>
+        <button id="transcribeButton" disabled>Get transcription</button>
+        </div>
+        <div id="output"></div>
+        <script src="https://cdn.rawgit.com/mattdiamond/Recorderjs/08e7abd9/dist/recorder.js"></script>
+    </body>
 <h1>Click to start</h1>
 <canvas id="spect"></canvas>
 </html>

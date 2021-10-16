@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/digitaIfabric/hacklab21#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "@google-cloud/speech": "^4.9.0",
+    "express": "^4.17.1",
+    "multer": "^1.4.3"
   }
 }
