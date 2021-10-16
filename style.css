@@ -1,0 +1,26 @@
+html, body { height: 100%; }
+canvas {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+}
+#spect{
+  height: 50%;
+  position: relative;
+  background: transparent; 
+  background-color: transparent;
+  z-index: 3;
+  transform: translate(0%, 100%);
+}
